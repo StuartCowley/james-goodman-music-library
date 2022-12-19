@@ -14,4 +14,6 @@ router.put('/:id', artistController.putArtist);
 
 router.patch('/:id', artistController.updateArtist);
 
+router.delete('/:id', artistController.deleteArtist);
+
 module.exports = router;
